@@ -1,0 +1,10 @@
+    # Memutar musik latar dengan loop
+    play music "audio/main/BaldrSkyOSTEasinessatTime.mp3" fadeout 1.0 fadein 3.0 loop
+    pause 5.0
+    # Mengurangi volume BGM sebelum memutar efek suara
+    $ renpy.music.set_volume(0.1, channel='music')  # Atur volume BGM ke 30%
+    pause 1.0
+    play sound "audio/sfx/suaratusukayaka.mp3"  # Memutar efek suara
+    pause 1.0
+    # Kembali ke volume normal setelah efek suara selesai
+    $ renpy.music.set_volume(1.0, channel='music')  # Kembalikan volume BGM ke 100%

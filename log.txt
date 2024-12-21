@@ -1,0 +1,43 @@
+Wed Dec 18 22:19:25 2024
+Windows-10-10.0.19045
+Ren'Py 8.1.3.23091805
+ 
+
+Bootstrap to the start of init.init. took 0.04s
+Early init. took 0.00s
+Loader init. took 0.02s
+Loading error handling. took 0.14s
+Loading script. took 1.76s
+Loading save slot metadata. took 0.04s
+Loading persistent. took 0.00s
+INFO:renpy_warp_service:service thread started. periodically scanning ports for warp server
+Running init code. took 0.12s
+Loading analysis data. took 0.00s
+Analyze and compile ATL. took 0.02s
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+  File "/home/tom/ab/renpy-build-fix/tmp/install.linux-x86_64/lib/python3.9/threading.py", line 910, in run
+  File "<string>", line 193, in try_socket_ports_forever
+  File "<string>", line 138, in socket_service
+ModuleNotFoundError: No module named 'websockets'
+Reloading save slot metadata. took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Dho\\AppData\\Roaming/RenPy/backups\\visualnovelbebuhanhoyo':
+Dump and make backups. took 0.05s
+Cleaning cache. took 0.00s
+Making clean stores. took 0.00s
+Initial gc. took 0.02s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object. took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.02s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
